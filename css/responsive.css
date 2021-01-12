@@ -1,0 +1,108 @@
+/*start dashboard */
+@media only screen and (max-width: 1199px){
+	.dashbord_h_icon li {width: 85%;}
+	.dashbord_h_icon li:first-child {width: 50px;}
+	.dashbord_h_icon li .visit_cntnt{text-align: right;}
+}
+@media only screen and (max-width: 767px){
+	.dashbord_h_icon{margin-top: 10px;}
+	.modla_btns .btns.warning {margin: 0 0 0 auto;}
+	.modla_btns .btns.danger {margin: auto 0 0 0;}
+	.modla_btns .btns {margin: 0 0;width: 65%;}
+	.modla_btns .btns.primary{margin: 0 0 0 auto;}
+	/*table*/
+	.home_table table.display tbody tr.odd {margin-top: 15px;border-radius: 3px;border-bottom: 2px solid #fe0f0f;box-shadow: 0px 0px 15px 2px rgba(185, 185, 185, 0.5);}
+	.home_table table.display tbody tr.even{background-color: #e2e2e2!important;margin-top: 15px;border-bottom: 2px solid #002292;box-shadow: 0px 0px 15px 2px rgba(185, 185, 185, 0.5);border-radius: 3px;}
+}
+@media only screen and (max-width: 575px){
+	.button_menu_logo {margin-left: 0px;}
+	.button_menu_logo a img {width: 85px;margin-top: 5px;}
+	.button-menu-mobile {width: 35px;padding: 0px;}
+	.button-menu-mobile .box-stripes {margin-left: -3px;}
+	.right_login li a span.name_login{display: none;}
+	.right_login_submenu {width: 160px;left: -115px;}
+	.right_login_submenu.notification_sub {left: -170px;}
+	.right_login {margin-right: 0px;}
+	.right_login_submenu.search_sub {width: 98%;right: 1%;top: 61px;}
+	.pie_chart {padding: 10px;margin-top: 40px;}
+	#table_id_wrapper div#table_id_length {float: none;}
+	#table_id_wrapper div#table_id_filter {float: none;margin-top: 10px;margin-bottom: 10px;}
+	#table_id_wrapper div#table_id_info {float: none;margin-left: 0px;margin-top: 5px;}
+    #table_id_wrapper div#table_id_paginate {float: none;text-align: center;margin-top: 10px;background: #ececf1;padding: 11px 25px;box-shadow: 0px 1px 2px rgba(175, 175, 175, 0.6);}
+	.home_table {margin-bottom: 70px;}
+	.edit_profile {margin-top: 0px;}
+	.edit_pro_cntnt {padding: 15px 10px;}
+	.profile_information {padding: 15px 10px;}
+	.profile_information li {padding: 5px 0px 5px 25px;}
+	.profile_information li h6 {font-size: 14px;padding-bottom: 5px;}
+	.edit_profile_form {padding: 15px 10px;margin-top: 10px;}
+	.general_froms {margin-top: 30px;padding: 15px 10px;}
+
+	.modla_btns .btns.top_left {margin: 0 auto;}
+	.modla_btns .btns {margin: 0 auto;}
+	.modla_btns .btns.warning {margin: 0 auto;}
+	.modla_btns .btns.danger {margin: 0 auto;}
+	.modla_btns .btns.primary {margin: 0 auto;}
+	.modla_btns .btns.plane_clr {margin: 0 auto;}
+	.top_left_modal {padding: 10px 10px;}
+	.top_center_modal2 {padding: 10px 10px;}
+	.home_setting_btn{
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 400px){
+	#conteudo .conteudo-boxInner {padding: 0px 0px 0px 0px;overflow: hidden;}
+	#conteudo .conteudo-box {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e4e5e6;
+     -webkit-box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0); 
+    -moz-box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0);
+     box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0); 
+     border-radius: 0px; 
+     -webkit-border-radius: 0px; 
+    -moz-border-radius: 0px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1000px){
+	.canvasadd_height{    height: 370px!important;}
+}
+@media only screen and (max-width: 767px){
+	.login_with {padding: 10px 10px;}
+	.login_form_input {padding: 10px 10px;}
+	.login_form_input li p span.fogot_pass {display: block;}
+	.login_form_input li p span.member_pass {display: block;text-align: left;float: none;padding-top: 5px;padding-bottom: 5px;}
+	.banner_shadow_ani span {width: 130px;height: 130px;right: -20px;top: -30px;}
+	.banner_shadow_ani span img {width: 35px;height: 35px;margin-top: 45px;}
+}
+@media only screen and (max-width: 575px){
+	.login_form {background-size: 140px;padding: 20px 0px;}
+    .login_logo {width: 80px;top: 35px;left: 10px;}
+	.login_logo img {width: 80px;}
+	.login_form_input {margin-top: 10px;}
+	.login_form_input h3 {text-align: right;font-size: 20px;padding-bottom: 10px;}
+	.login_form_input h3::before {width: 45px;height: 2px;}
+    .login_form_input ul {margin-top: 35px;}
+	.dash-order-1{order: 1;}
+	.dash-order-2{order: 2;}
+	.get_start_bg {border-right: 0px solid #eaeaea;border-top: 1px solid #eaeaea;}
+	.login_with ul {margin-top: 0px;}
+	.login_with h3 {padding-bottom: 10px;font-size: 20px;}
+	.login_with p.or_with {padding-bottom: 5px;}
+	.forgot_pic img.image-resposive {display: block;transform: translate(0px, 0px);-webkit-transform: translate(0px, 0px);-moz-transform: translate(0px, 0px);-o-transform: translate(0px, 0px);}
+	p.forgot_infor {padding-top: 35px;}
+	.login_form_input.forgot_password ul{
+		margin-top: 20px;
+	}
+}

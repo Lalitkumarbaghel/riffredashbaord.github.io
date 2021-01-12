@@ -1,0 +1,157 @@
+.edit_profile{
+	background: linear-gradient(to bottom right, #626ed4 15%, #ffffff 15%);
+    margin-top: 20px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 9px 2px rgba(212, 212, 212, 0.5);
+}
+.edit_pro_cntnt {
+    border-bottom: 1px solid #e4e4e4;
+    padding: 20px;
+    text-align: center;
+}
+.edit_pro_pic{
+	width: 130px;
+	height: 130px;
+	background-color: green;
+	border-radius: 50%;
+	display: block;
+	margin: 0 auto;
+}
+.edit_pro_pic img{
+	width: 130px;
+	height: 130px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+.edit_pro_cntnt h6{
+	padding-top: 15px;
+    font-weight: 600;
+    color: #666;
+    padding-bottom: 7px;
+    margin: 0px;
+}
+.profile_information {
+    padding: 20px;
+}
+.profile_information ul{
+	list-style-type: none;
+	padding: 0px;
+}
+.profile_information li{
+	display: block;
+    padding: 10px 0px 10px 35px;
+    /* text-align: center; */
+    border-bottom: 1px solid #f2f2f2
+}
+.profile_information li:last-child{
+	border-bottom: 0px;
+}
+.profile_information li h6{
+	color: #999;
+    font-size: 15px;
+    font-weight: 500;
+    padding-bottom: 9px;
+    margin: 0px;
+}
+.profile_information li p{
+	color: #333;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/*edit pofile*/
+.edit_profile_form{
+	padding: 15px 25px;
+	background: linear-gradient(to bottom right, #ffffff 88%, #626ed4 88%);
+    margin-top: 20px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 9px 2px rgba(212, 212, 212, 0.5);
+}
+.edit_profile_form ul{
+	list-style-type: none;
+	display: block;
+	padding: 0px;
+}
+.edit_profile_form li{
+	display: block;
+	/*margin: 20px 0px;*/
+}
+.edit_profile_form li label{
+	display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+.edit_profile_form li input[type="text"], .edit_profile_form li input[type="email"], .edit_profile_form li input[type="number"]{
+	background-color: #f3f3f3;
+}
+/* Chrome, Safari, Edge, Opera */
+.edit_profile_form li input::-webkit-outer-spin-button,
+.edit_profile_form li input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.edit_profile_form li input[type=number] {
+  -moz-appearance:textfield;
+}
+.profile_gender {
+    margin-top: 15px;
+}
+.profile_gender p label{
+	color: #888!important;
+}
+.profile_gender p input[type="radio"]:checked,
+.profile_gender p input[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+.profile_gender p input[type="radio"]:checked + label,
+.profile_gender p input[type="radio"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+}
+.profile_gender p input[type="radio"]:checked + label:before,
+.profile_gender p input[type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #ddd;
+    border-radius: 100%;
+    background: #fff;
+}
+.profile_gender p input[type="radio"]:checked + label:after,
+.profile_gender p input[type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: #002292;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+.profile_gender p input[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+.profile_gender p input[type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+.edit_profile_form li button{
+	width: 150px;
+}

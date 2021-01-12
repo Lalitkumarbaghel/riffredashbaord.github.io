@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<link rel="icon" href="images/fab-icn.png" type="image/png" sizes="32x32">
+	<link rel="stylesheet" type="text/css" href="css/grid.css">
+	<link rel="stylesheet" type="text/css" href="css/general-form.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	 <!-- <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:200,300,400,500,600,700|Poppins:300,400,500,600,700,800&display=swap" rel="stylesheet"> -->
+	 <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+</head>
+<body>
+<div class="full-width login_bg">
+	<div class="fix-width">
+		<div class="flexible-div" style="justify-content: center;align-items: center;height: 100vh;">
+			<div class="dash-lg-8 dash-md-11">
+
+				<div class="login_form">
+					<div class="login_logo">
+						<img src="images/logo.png">
+					</div>
+					<div class="flexible-div" style="margin: 0px; align-items: center;">
+						<div class="dash-md-5 dash-sm-6 get_start_bg dash-order-2">
+							<div class="login_with">
+								<ul>
+									<li>
+										<h3>Get Started</h3>
+										<p class="or_with">With OR</p>
+									</li>
+									<li>
+										<a href="#" class="login_goole">Sign in With Google+</a>
+									</li>
+									<li>
+										<a href="#" class="login_facebook">Sign in With Facebook</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="dash-md-7 dash-sm-6 dash-order-1">
+							<div class="login_form_input">
+								<h3>Log In </h3>
+								<form>
+									<ul>
+										<li>
+											<label>Username</label>
+											<input type="text" name="" placeholder="Type Username Here..." class="input_style">
+											<div class="login_icn">
+												<i class="fas fa-user"></i>
+											</div>	
+										</li>
+										<li>
+											<label>Password</label>
+											<input type="password" name="" placeholder="Type Password Here..." class="input_style" id="pass_word">	
+											<div class="login_icn" >
+												<i class="fas fa-key"></i>
+											</div>
+											<div class="password_show">
+												<i class="fas fa-eye-slash" id="eye_icon" onclick="show_pass_word()"></i>
+											</div>
+											<script>
+												function show_pass_word() {
+												  var xx = document.getElementById("pass_word");
+												  var yy = document.getElementById("eye_icon");
+												  if (xx.type === "password") {
+												    xx.type = "text";
+												    yy.setAttribute("class", "fas fa-eye");
+												  } else {
+												    xx.type = "password";
+												    yy.setAttribute("class", "fas fa-eye-slash");
+												  }
+												}
+												</script>
+										</li>
+										<li>
+											<p><span class="fogot_pass"><a href="recover-password.html">Forgot Password?</a></span><span class="member_pass"><a href="sign-up.html">Register a new membership?</a></span></p>
+										</li>
+										<li>
+											<button type="submit">Log In</button>	
+										</li>
+									</ul>
+								</form>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+<!-- right animation -->
+	 <div class="banner_shadow_ani">
+        <span><img src="images/r-icn.png"></span>
+      </div>
+</div>
+
+</body>
+</html>

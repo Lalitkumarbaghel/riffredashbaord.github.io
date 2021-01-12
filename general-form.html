@@ -1,0 +1,1408 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dashbord</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+
+<link rel="icon" href="images/fab-icn.png" type="image/png" sizes="32x32">
+<link rel="stylesheet" type="text/css" href="css/grid.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive-table.css">
+    <link rel="stylesheet" type="text/css" href="css/home-menu.css">
+    <link rel="stylesheet" type="text/css" href="css/notification.css">
+    <link rel="stylesheet" type="text/css" href="css/edit-profile.css">
+    <link rel="stylesheet" type="text/css" href="css/general-form.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/dataTables.css"> -->
+
+    <!-- google font family -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:200,300,400,500,600,700|Poppins:300,400,500,600,700,800&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+</head>
+<body>
+  
+
+
+    <div id="hit-menu" class="col-xs-hide col-sm-hide"></div>
+    <div class="menu-mobile-background "></div>
+    <div id="header">
+        <div class="header-inner">
+            <div class="header-topo">
+                  <div class="button_menu_logo">
+                         <a href="index.html" class="">
+                            <img src="images/logo.png" >
+                        </a>
+                    </div>
+                <button class="button-menu-mobile ">
+                    <div class="box-stripes">
+                        <span class="stripe-top"></span>
+                        <span class="stripe-middle"></span>
+                        <span class="stripe-bottom"></span>
+
+                    </div>
+                </button>
+                <div class="right_login">
+                   
+                    <ul>
+                        <li>
+                            <a href="#"><i class="fas fa-search"></i></a>
+                            <div class="right_login_submenu search_sub">
+                                <div class="menu_search">
+                                    <form >
+                                        <input type="search" name="" placeholder="Search...">
+                                        <button><i class="fas fa-search"></i></button>
+                                    </form>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fas fa-bell"></i>
+                                <div class="notification_text">
+                                    <p>3</p>
+                                </div>
+                            </a>
+                             <!-- submenu -->
+                            <div class="right_login_submenu notification_sub">
+                                <div class="notific">
+                                    <h5>Notification(250)</h5>
+                                </div>
+                                <div class="notification_middle">
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <div class="menu_noti_icn notif_blue">
+                                                    <i class="fas fa-cart-arrow-down"></i>
+                                                </div>
+                                                <div class="menu_notif_cntnt">
+                                                    <h6>Your order is placed</h6>
+                                                    <p>Dummy text of the printing and typesetting industry.</p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                             <a href="#">
+                                                <div class="menu_noti_icn notif_red">
+                                                    <i class="fas fa-cart-arrow-down"></i>
+                                                </div>
+                                                <div class="menu_notif_cntnt">
+                                                    <h6>New Message received</h6>
+                                                    <p>You have 87 unread messages</p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                             <a href="#">
+                                                <div class="menu_noti_icn notif_purple">
+                                                    <i class="fas fa-cart-arrow-down"></i>
+                                                </div>
+                                                <div class="menu_notif_cntnt">
+                                                    <h6>Your item is shipped</h6>
+                                                    <p>It is a long established fact that a reader will</p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="menu_noti_icn notif_green">
+                                                    <i class="fas fa-cart-arrow-down"></i>
+                                                </div>
+                                                <div class="menu_notif_cntnt">
+                                                    <h6>Your item is shipped</h6>
+                                                    <p>It is a long established fact that a reader will</p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                             <a href="#">
+                                                <div class="menu_noti_icn notif_blue">
+                                                    <i class="fas fa-cart-arrow-down"></i>
+                                                </div>
+                                                <div class="menu_notif_cntnt">
+                                                    <h6>New Message received</h6>
+                                                    <p>You have 87 unread messages</p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="notification_view_btn">
+                                    <a href="#">View All </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fas fa-question-circle"></i></a>
+                        </li>
+                        <li>
+                            <a href="login.html" class="profile_flexible"><span class="name_login">Lalit Baghel</span> <span class="profile_img">
+                                <img src="images/profile.jpg"></span></a>
+                                <!-- submenu -->
+                            <div class="right_login_submenu">
+                                <ul>
+                                    <li>
+                                        <a href="edit-profile.html"><span class="sub_icn"><i class="fas fa-user"></i></span>Profile</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><span class="sub_icn"><i class="fas fa-wallet"></i></span>My Wallet</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><span class="sub_icn"><i class="fas fa-cog"></i></span>Settings</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><span class="sub_icn"><i class="fas fa-unlock-alt"></i></span>Lock screen</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><span class="sub_icn"><i class="fas fa-sign-out-alt"></i></span>Logout</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div><!--end top header-->
+    <div id="menu" class="">
+        <div class="menu-header">
+            <div class="header-topo2">
+                <div class="header-controlMenu  col-sm-hide col-xs-hide">
+                    <span class="header-nomeEmpresa"> 
+                        <a href="#" class="brand-icon ">
+                            <img src="images/logo.png" class="logo_img">
+                         </a>
+                     </span>
+                    <button class="header-controlMenuButton">
+                        <div class="box-stripes2">
+                        <span class="stripe-top"></span>
+                        <span class="stripe-middle"></span>
+                        <span class="stripe-bottom"></span>
+
+                    </div>  
+                    </button>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+        <div class="menu-box">
+            <div class="menu-wrapper-inner">
+                <div class="menu-wrapper">
+                    <div class="menu-slider">
+                        <div class="menu">
+                            <ul >
+                                <li>
+                                    <div class="menu-item">
+                                        <a href="#" class="menu-anchor " data-menu="1">
+                                            <span class="right_menu_icn"><i class="fas fa-home"></i></span>
+                                            <span>Dashboard</span>
+                                            <span><i class="fas fa-angle-right spt"></i></span>
+                                        </a>
+                                  </div>
+                                </li>
+                                <li>
+                                    <div class="menu-item">
+                                        <a href="#" class="menu-anchor menuactive" data-menu="2">
+                                            <span class="right_menu_icn"><i class="fas fa-cogs"></i></span>
+                                            <span>Settings</span>
+                                            <span><i class="fas fa-angle-right spt"></i></span>
+                                        </a>
+                                  </div>
+                                </li>
+                                <li>
+                                    <div class="menu-item">
+                                        <a href="#" class="menu-anchor" data-menu="3">
+                                            <span class="right_menu_icn"><i class="fas fa-chart-line"></i></span>
+                                            <span>Products & Categories</span>
+                                            <span><i class="fas fa-angle-right spt"></i></span>
+                                        </a>
+                                        
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="menu-item">
+                                        <a href="#" class="menu-anchor" data-menu="4">
+                                            <span class="right_menu_icn"><i class="fas fa-pallet"></i></span>
+                                            <span>Inventory Management</span>
+                                            <span><i class="fas fa-angle-right spt"></i></span>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="menu-item">
+                                        <a href="#" class="menu-anchor" data-menu="5">
+                                            <span class="right_menu_icn"><i class="fas fa-sort-amount-up"></i></span>
+                                            <span>Orders Management</span>
+                                            <span><i class="fas fa-angle-right spt"></i></span>
+                                        </a>
+                                  </div>
+                                </li>
+                                 <li>
+                                    <div class="menu-item">
+                                        <a href="#" class="menu-anchor" data-menu="6">
+                                            <span class="right_menu_icn"><i class="fas fa-project-diagram"></i></span>
+                                            <span>Brands & Models</span>
+                                            <span><i class="fas fa-angle-right spt"></i></span>
+                                        </a>
+                                  </div>
+                                </li>
+                                 <li>
+                                    <div class="menu-item">
+                                        <a href="#" class="menu-anchor" data-menu="7">
+                                            <span class="right_menu_icn"><i class="fas fa-tags"></i></span>
+                                            <span>Sign Up</span>
+                                            <span><i class="fas fa-angle-right spt"></i></span>
+                                        </a>
+                                  </div>
+                                </li>
+                                 <li>
+                                    <div class="menu-item">
+                                        <a href="#"class="menu-anchor" data-menu="8">
+                                            <span class="right_menu_icn"><i class="fas fa-images"></i></span>
+                                            <span>Banner</span>
+                                            <span><i class="fas fa-angle-right spt"></i></span>
+                                        </a>
+                                  </div>
+                                </li>
+                                <!--  <li>
+                                    <div class="menu-item">
+                                        <a href="#" class="" >
+                                            <span class="right_menu_icn"><i class="fas fa-archive"></i></span>
+                                            <span>Authentication</span>
+                                            <span><i class="fas fa-angle-right spt"></i></span>
+                                        </a>
+                                  </div>
+                                </li> -->
+                                <li>
+                                    <div class="menu-item">
+                                        <a href="#" class="menu-anchor" data-menu="9">
+                                            <span class="right_menu_icn"><i class="fas fa-file-alt"></i></span>
+                                            <span>Pages</span>
+                                            <span><i class="fas fa-angle-right spt"></i></span>
+                                        </a>
+                                  </div>
+                                </li>
+                                <li>
+                                    <div class="menu-item">
+                                        <a href="#" class="menu-anchor" data-menu="10">
+                                            <span class="right_menu_icn"><i class="fas fa-medkit"></i></span>
+                                            <span>Extra</span>
+                                            <span><i class="fas fa-angle-right spt"></i></span>
+                                        </a>
+                                  </div>
+                                </li>
+                                <li>
+                                    <div class="menu-item">
+                                        <a href="#" class="menu-anchor" data-menu="11" >
+                                            <span class="right_menu_icn"><i class="fas fa-ellipsis-h"></i></span>
+                                            <span>Multi Level</span> 
+                                            <span><i class="fas fa-angle-right spt"></i></span>
+                                        </a>
+                                  </div>
+                                </li>
+                            </ul>
+                        </div>
+
+
+                        <!-- start submenu  dashboard -->
+                            <div class="submenu menu" data-menu="1">
+                                <div class="submenu-back">
+                                    <div class="menu-item">
+                                     
+                                      <a href="#" class="menu-back"><span><i class="fas fa-angle-left back"></i>    </span>BACK</a></div>
+                                </div>
+                                <ul>
+                                  
+                                    <li>
+                                        <div class="menu-item"><a href="#">Dashboard v1</a></div>
+                                    </li>
+                                    <li>
+                                        <div class="menu-item"><a href="#">Dashboard v2</a></div>
+                                    </li>
+                                    <li>
+                                        <div class="menu-item"><a href="#">Dashboard v3</a></div>
+                                    </li>
+                                </ul>
+                            </div>
+                              <!-- start submenu calendar  -->
+                          <div class="submenu menu" data-menu="2">
+                                <div class="submenu-back">
+                                    <div class="menu-item">
+                                     
+                                      <a href="#" class="menu-back"><span><i class="fas fa-angle-left back"></i>    </span>BACK</a></div>
+                                </div>
+                                <ul>
+                                  
+                                    <li>
+                                        <div class="menu-item"><a href="#">Inbox</a></div>
+                                    </li>
+                                    <li>
+                                        <div class="menu-item"><a href="#">Email Read</a></div>
+                                    </li>
+                                    <li>
+                                        <div class="menu-item"><a href="#">Email Compose</a></div>
+                                    </li>
+                                </ul>
+                            </div>
+                              <!-- start submenu email -->
+                            <div class="submenu menu" data-menu="3">
+                                <div class="submenu-back">
+                                    <div class="menu-item">
+                                     
+                                      <a href="#" class="menu-back"><span><i class="fas fa-angle-left back"></i>    </span>BACK</a></div>
+                                </div>
+                                <ul>
+                                  
+                                    <li>
+                                        <div class="menu-item"><a href="#">Inbox</a></div>
+                                    </li>
+                                    <li>
+                                        <div class="menu-item"><a href="#">Email Read</a></div>
+                                    </li>
+                                    <li>
+                                        <div class="menu-item"><a href="#">Email Compose</a></div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- start submenu ui Elements -->
+                              <div class="submenu menu" data-menu="4">
+                                <div class="submenu-back">
+                                    <div class="menu-item">
+                                     
+                                      <a href="#" class="menu-back"><span><i class="fas fa-angle-left back"></i>    </span>BACK</a></div>
+                                </div>
+                                <ul>
+                                  
+                                    <li>
+                                        <div class="menu-item"><a href="general-form.html">General</a></div>
+                                    </li>
+                                    <li>
+                                        <div class="menu-item"><a href="advance-form.html">Advance Form</a></div>
+                                    </li>
+                                    <li>
+                                        <div class="menu-item"><a href="table.html">Table</a></div>
+                                    </li>
+                                     <li>
+                                        <div class="menu-item"><a href="notification.html">Notification</a></div>
+                                    </li>
+                                     <li>
+                                        <div class="menu-item"><a href="#">Modals & Alerts</a></div>
+                                    </li>
+                                     <li>
+                                        <div class="menu-item"><a href="#">Navbar & Tabs</a></div>
+                                    </li>
+                                     <li>
+                                        <div class="menu-item"><a href="#">Timeline</a></div>
+                                    </li>
+                                     <li>
+                                        <div class="menu-item"><a href="#">Ribbons</a></div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- start submenu form -->
+                              <div class="submenu menu" data-menu="5">
+                                <div class="submenu-back">
+                                    <div class="menu-item">
+                                     
+                                      <a href="#" class="menu-back"><span><i class="fas fa-angle-left back"></i>    </span>BACK</a></div>
+                                </div>
+                                <ul>
+                                  
+                                    <li>
+                                        <div class="menu-item"><a href="#">General Elements</a></div>
+                                    </li>
+                                    <li>
+                                        <div class="menu-item"><a href="#">Advanced Elements</a></div>
+                                    </li>
+                                    <li>
+                                        <div class="menu-item"><a href="#">Editors</a></div>
+                                    </li>
+                                     <li>
+                                        <div class="menu-item"><a href="#">Validation</a></div>
+                                    </li>
+                                </ul>
+                            </div>
+                             <!-- start submenu chart -->
+                              <div class="submenu menu" data-menu="6">
+                                <div class="submenu-back">
+                                    <div class="menu-item">
+                                     
+                                      <a href="#" class="menu-back"><span><i class="fas fa-angle-left back"></i>    </span>BACK</a></div>
+                                </div>
+                                <ul>
+                                  
+                                    <li>
+                                        <div class="menu-item"><a href="#">ChartJS</a></div>
+                                    </li>
+                                    <li>
+                                        <div class="menu-item"><a href="#">ChartJS</a></div>
+                                    </li>
+                                    <li>
+                                        <div class="menu-item"><a href="#">Inline</a></div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- start submenu chart -->
+                              <div class="submenu menu" data-menu="7">
+                                <div class="submenu-back">
+                                    <div class="menu-item">
+                                     
+                                      <a href="#" class="menu-back"><span><i class="fas fa-angle-left back"></i>    </span>BACK</a></div>
+                                </div>
+                                <ul>
+                                  
+                                    <li>
+                                        <div class="menu-item"><a href="sign-up.html">Sign Up</a></div>
+                                    </li>
+                                    <li>
+                                        <div class="menu-item"><a href="login.html">Login</a></div>
+                                    </li>
+                                    <li>
+                                        <div class="menu-item"><a href="edit-profile.html">Edit Profile</a></div>
+                                    </li>
+                                    <li>
+                                        <div class="menu-item"><a href="forgot-password.html">Forgot Password</a></div>
+                                    </li>
+                                    <li>
+                                        <div class="menu-item"><a href="recover-password.html">Recover Password</a></div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- start submenu pages -->
+                              <div class="submenu menu" data-menu="9">
+                                <div class="submenu-back">
+                                    <div class="menu-item">
+                                     
+                                      <a href="#" class="menu-back"><span><i class="fas fa-angle-left back"></i>    </span>BACK</a></div>
+                                </div>
+                                <ul>
+                                  
+                                    <li>
+                                        <div class="menu-item"><a href="#">Invoice</a></div>
+                                    </li>
+                                    <li>
+                                        <div class="menu-item"><a href="#">Profile</a></div>
+                                    </li>
+                                    <li>
+                                        <div class="menu-item"><a href="#">E-commerce</a></div>
+                                    </li>
+                                     <li>
+                                        <div class="menu-item"><a href="#">Projects</a></div>
+                                    </li>
+                                     <li>
+                                        <div class="menu-item"><a href="#">Project Add</a></div>
+                                    </li>
+                                     <li>
+                                        <div class="menu-item"><a href="#">Project Edit</a></div>
+                                    </li>
+                                     <li>
+                                        <div class="menu-item"><a href="#">Project Edit</a></div>
+                                    </li>
+                                     <li>
+                                        <div class="menu-item"><a href="#">Project Detail</a></div>
+                                    </li>
+                                     <li>
+                                        <div class="menu-item"><a href="#">Contacts</a></div>
+                                    </li>
+                                </ul>
+                            </div>
+                             <!-- start submenu pages -->
+                              <div class="submenu menu" data-menu="10">
+                                <div class="submenu-back">
+                                    <div class="menu-item">
+                                     
+                                      <a href="#" class="menu-back"><span><i class="fas fa-angle-left back"></i>    </span>BACK</a></div>
+                                </div>
+                                <ul>
+                                  
+                                    <li>
+                                        <div class="menu-item"><a href="#">Login</a></div>
+                                    </li>
+                                    <li>
+                                        <div class="menu-item"><a href="#">Login Boxed</a></div>
+                                    </li>
+                                    <li>
+                                        <div class="menu-item"><a href="#">Register</a></div>
+                                    </li>
+                                     <li>
+                                        <div class="menu-item"><a href="#">Register Boxed</a></div>
+                                    </li>
+                                     <li>
+                                        <div class="menu-item"><a href="#">Forgot Password</a></div>
+                                    </li>
+                                     <li>
+                                        <div class="menu-item"><a href="#">Forgot Password Boxed</a></div>
+                                    </li>
+                                </ul>
+                            </div>
+                             <!-- start submenu pages -->
+                              <div class="submenu menu" data-menu="11">
+                                <div class="submenu-back">
+                                    <div class="menu-item">
+                                     
+                                      <a href="#" class="menu-back"><span><i class="fas fa-angle-left back"></i>    </span>BACK</a></div>
+                                </div>
+                                <ul>
+                                  
+                                    <li>
+                                        <div class="menu-item"><a href="#">Important</a></div>
+                                    </li>
+                                    <li>
+                                        <div class="menu-item"><a href="#">Warning</a></div>
+                                    </li>
+                                    <li>
+                                        <div class="menu-item"><a href="#">Informational</a></div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                                
+                        </div>
+                    </div>
+                </div>
+            </div><!--menu/end-->
+        </div>
+
+
+
+    <!-- start dashbord content -->
+     <!-- start animation files -->
+
+    <div id="conteudo">
+        <div class="conteudo-inner">
+
+            <div class="conteudo-wrapper">
+                <div class="conteudo-titleSection">
+                  <div class="dash_board_top_head">
+                       <div class="flexible-div logo_right">
+                            <div class="dash-md-12">
+                                  <strong class="conteudo-title">Form</strong>
+                                    <div class="breadcrumb">
+                                        <a href="#" class="breadcrumb-link">Home</a>
+                                        <span class="breadcrumb-separator"><i class="fas fa-chevron-right"></i></span>
+                                        <a href="#" class="breadcrumb-link">General Form</a>
+                                       
+                                    </div>
+                            </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="conteudo-box">
+
+                    <div class="conteudo-boxInner">
+                           <div class="flexible-div wave_bg">
+                               <div class="dash-md-6 p-b-2">
+                                  <div class="general_froms">
+                                      <div class="form_heading_bg">
+                                        <h5>Quick Example</h5>
+                                      </div>
+                                        <form>
+                                          <ul>
+                                            <li>
+                                               <div class="flexible-div">
+                                                <div class="dash-md-12">
+                                                  <label>Enter Name*</label>
+                                                   <input type="text" name="" placeholder="Name" class="input_style" required>
+                                                </div>
+                                              </div>
+                                            </li>
+                                             <li>
+                                               <div class="flexible-div">
+                                                <div class="dash-md-12">
+                                                  <label>Email address*</label>
+                                                   <input type="email" name="" placeholder="Enter Email" class="input_style" required>
+                                                </div>
+                                                
+                                              </div>
+                                            </li>
+                                             <li>
+                                               <div class="flexible-div">
+                                                 <div class="dash-md-12">
+                                                  <label>Password*</label>
+                                                   <input type="password" name="" placeholder="Password" class="input_style" required>
+                                                </div>
+                                              </div>
+                                            </li>
+                                            <li>
+                                               <div class="flexible-div">
+                                                 <div class="dash-md-12">
+                                                  <label>Enter Country*</label>
+                                                   <input type="text" name="" placeholder="Country" class="input_style" required>
+                                                </div>
+                                              </div>
+                                            </li>
+                                            <li>
+                                               <div class="flexible-div">
+                                                <div class="dash-md-12">
+                                                   <label>Enter Pin code*</label>
+                                                   <input type="text" name="" placeholder="Pin code" class="input_style" required>
+                                                </div>
+                                              </div>
+                                            </li>
+                                            <li>
+                                               <div class="flexible-div">
+                                                <div class="dash-md-12">
+                                                   <label>Enter Gendar*</label>
+                                                   <div class="profile_gender">
+                                                      <p>
+                                                        <input type="radio" id="test1" name="radio-group" checked>
+                                                        <label for="test1">Male</label>
+                                                      </p>
+                                                      <p>
+                                                        <input type="radio" id="test2" name="radio-group">
+                                                        <label for="test2">Female</label>
+                                                      </p>
+                                                      <p>
+                                                        <input type="radio" id="test3" name="radio-group">
+                                                        <label for="test3">Other</label>
+                                                      </p>
+                                                   </div>
+                                                </div>
+                                              </div>
+                                            </li>
+                                            <li>
+                                               <div class="flexible-div">
+                                                <div class="dash-md-12">
+                                                  <label>Upload Photo*</label>
+                                                   <input type="file" name="" required>
+                                                </div>
+                                              </div>
+                                            </li>
+                                            <li>
+                                               <div class="flexible-div">
+                                                <div class="dash-md-12">
+                                                   <label>Enter Massege*</label>
+                                                   <textarea cols="" rows="" placeholder="Massege" class="textarea_style m-b-2"></textarea>
+                                                </div>
+                                              </div>
+                                            </li>
+                                             <li>
+                                               <div class="flexible-div">
+                                                <div class="dash-md-12">
+                                                   <button type="submit" class="btns plane_clr">Submit</button>
+                                                </div>
+                                              </div>
+                                            </li>
+                                          </ul>
+                                        </form>
+                                </div>
+                               </div><!--col/end-->
+                               <div class="dash-md-6 p-b-2">
+                                <div class="general_froms yellow_btm">
+                                      <div class="form_heading_bg seccuse_bg">
+                                        <h5>General Elements</h5>
+                                      </div>
+                                        <form>
+                                          <ul>
+                                            <li>
+                                               <div class="flexible-div">
+                                                <div class="dash-md-6">
+                                                  <label>Text*</label>
+                                                   <input type="text" name="" placeholder="Enter..." class="input_style" required>
+                                                </div>
+                                                <div class="dash-md-6">
+                                                  <label>Text Disabled*</label>
+                                                   <input type="text" name="" placeholder="Enter..." class="input_style" disabled required>
+                                                </div>
+                                              </div>
+                                            </li>
+                                             <li>
+                                               <div class="flexible-div">
+                                                <div class="dash-md-6">
+                                                   <label>Textarea*</label>
+                                                   <textarea cols="" rows="" placeholder="Enter..." class="textarea_style"></textarea>
+                                                </div>
+                                                <div class="dash-md-6">
+                                                   <label>Textarea Disabled*</label>
+                                                   <textarea cols="" rows="" placeholder="Enter..." class="textarea_style" disabled></textarea>
+                                                </div>
+                                              </div>
+                                            </li>
+                                             <li>
+                                               <div class="flexible-div">
+                                                <div class="dash-md-12">
+                                                  <div class="seccuse_input">
+                                                      <label><span><i class="fas fa-check"></i> </span>Input with success*</label>
+                                                      <input type="email" name="" placeholder="Enter..." class="input_style" required>
+                                                      <div class="checkmark_btn">
+                                                        <button><i class="fas fa-check"></i></button>
+                                                      </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </li>
+                                            <li>
+                                               <div class="flexible-div">
+                                                <div class="dash-md-12">
+                                                  <div class="warning_input">
+                                                      <label><span><i class="fas fa-bell"></i> </span>Input with warning*</label>
+                                                      <input type="email" name="" placeholder="Enter..." class="input_style" required>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </li>
+                                             <li>
+                                               <div class="flexible-div">
+                                                <div class="dash-md-12">
+                                                  <div class="invalid_input">
+                                                      <label><span><i class="fas fa-times-circle"></i> </span>Input with error*</label>
+                                                      <input type="email" name="" placeholder="Enter..." class="input_style" required>
+                                                      <div class="checkmark_btn">
+                                                        <button><i class="fas fa-times"></i></button>
+                                                      </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </li>
+                                          
+                                            <li>
+                                               <div class="flexible-div">
+                                                <div class="dash-md-6">
+                                                   <!-- <label>Enter Gendar*</label> -->
+                                                   <div class="profile_gender">
+                                                    <div class="checkbox-input">
+                                                          <input type="checkbox" name="" class="check-input" >
+                                                          <label class="check-label">Checkbox</label>
+                                                      </div>
+                                                      <div class="checkbox-input">
+                                                          <input type="checkbox" name="" class="check-input" checked>
+                                                          <label class="check-label">Checkbox checked</label>
+                                                      </div>
+                                                      <div class="checkbox-input">
+                                                          <input type="checkbox" name="" class="check-input" disabled>
+                                                          <label class="check-label">Checkbox disabled</label>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                                <div class="dash-md-6">
+                                                   <div class="profile_gender">
+                                                      <div class="checkbox-input">
+                                                          <input type="radio" name="" class="check-input" >
+                                                          <label class="check-label">Radio</label>
+                                                      </div>
+                                                      <div class="checkbox-input">
+                                                          <input type="radio" name="" class="check-input" checked>
+                                                          <label class="check-label">Radio checked </label>
+                                                      </div>
+                                                      <div class="checkbox-input">
+                                                          <input type="radio" name="" class="check-input" disabled>
+                                                          <label class="check-label">Radio disabled</label>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                              </div>
+                                            </li>
+                                            <li>
+                                               <div class="flexible-div">
+                                                <div class="dash-md-6">
+                                                   <div class="profile_gender">
+                                                    <label>Select</label>
+                                                    <select class="select-box">
+                                                      <option>option 1</option>
+                                                      <option>option 2</option>
+                                                      <option>option 3</option>
+                                                      <option>option 4</option>
+                                                      <option>option 5</option>
+                                                      <option>option 6</option>
+                                                    </select>
+                                                   </div>
+                                                </div>
+                                                <div class="dash-md-6">
+                                                    <div class="profile_gender">
+                                                      <label>Select Disabled</label>
+                                                      <select class="select-box" disabled>
+                                                          <option>option 1</option>
+                                                          <option>option 2</option>
+                                                          <option>option 3</option>
+                                                          <option>option 4</option>
+                                                          <option>option 5</option>
+                                                          <option>option 6</option>
+                                                      </select>
+                                                     </div>
+                                              </div>
+                                            </li>
+                                             <li>
+                                               <div class="flexible-div">
+                                                <div class="dash-md-12 m-t-2">
+                                                   <button type="submit" class="btns plane_clr">Submit</button>
+                                                </div>
+                                              </div>
+                                            </li>
+                                          </ul>
+                                        </form>
+                                </div>
+                               </div><!--col/end-->
+                            </div>
+
+                            <div class="flexible-div">
+                               <div class="dash-md-6 p-b-2">
+                                  <div class="general_froms green_btm">
+                                      <div class="form_heading_bg green_heading">
+                                        <h5>Input Addon</h5>
+                                      </div>
+                                      <form>
+                                        <ul>
+                                          <li>
+                                            <div class="flexible-div">
+                                              <div class="dash-md-12 m-t-2">
+                                                <div class="btn_input_form_group">
+                                                  <div class="input_btn">
+                                                    <i class="fas fa-search"></i>
+                                                  </div>
+                                                  <input type="search" name="" placeholder="search..." class="input_style border-left-radius">
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </li>
+                                          <li>
+                                            <div class="flexible-div">
+                                              <div class="dash-md-12 m-t-2">
+                                                <div class="btn_input_form_group">
+                                                  <input type="search" name="" placeholder="search..." class="input_style border-right-radius">
+                                                  <div class="input_btn input-btn-right-radius">
+                                                    <i class="fas fa-envelope"></i>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </li>
+                                        </ul>
+                                      </form>
+                                       
+                                </div>
+                               </div><!--col/end-->
+                               <div class="dash-md-6 p-b-2">
+                                <div class="general_froms yellow_btm">
+                                      <div class="form_heading_bg seccuse_bg">
+                                        <h5>Custom Elements</h5>
+                                      </div>
+                                        <form>
+                                          <ul>
+                                            <li>
+                                               <div class="flexible-div">
+                                                <div class="dash-md-6">
+                                                  <label>Text*</label>
+                                                   <input type="text" name="" placeholder="Enter..." class="input_style" required>
+                                                </div>
+                                                <div class="dash-md-6">
+                                                  <label>Text Disabled*</label>
+                                                   <input type="text" name="" placeholder="Enter..." class="input_style" disabled required>
+                                                </div>
+                                              </div>
+                                            </li>
+                                             <li>
+                                               <div class="flexible-div">
+                                                <div class="dash-md-6">
+                                                   <label>Textarea*</label>
+                                                   <textarea cols="" rows="" placeholder="Enter..." class="textarea_style"></textarea>
+                                                </div>
+                                                <div class="dash-md-6">
+                                                   <label>Textarea Disabled*</label>
+                                                   <textarea cols="" rows="" placeholder="Enter..." class="textarea_style" disabled></textarea>
+                                                </div>
+                                              </div>
+                                            </li>
+                                             <li>
+                                               <div class="flexible-div">
+                                                <div class="dash-md-12">
+                                                  <div class="seccuse_input">
+                                                      <label><span><i class="fas fa-check"></i> </span>Input with success*</label>
+                                                      <input type="email" name="" placeholder="Enter..." class="input_style" required>
+                                                      <div class="checkmark_btn">
+                                                        <button><i class="fas fa-check"></i></button>
+                                                      </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </li>
+                                            <li>
+                                               <div class="flexible-div">
+                                                <div class="dash-md-12">
+                                                  <div class="warning_input">
+                                                      <label><span><i class="fas fa-bell"></i> </span>Input with warning*</label>
+                                                      <input type="email" name="" placeholder="Enter..." class="input_style" required>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </li>
+                                             <li>
+                                               <div class="flexible-div">
+                                                <div class="dash-md-12">
+                                                  <div class="invalid_input">
+                                                      <label><span><i class="fas fa-times-circle"></i> </span>Input with error*</label>
+                                                      <input type="email" name="" placeholder="Enter..." class="input_style" required>
+                                                      <div class="checkmark_btn">
+                                                        <button><i class="fas fa-times"></i></button>
+                                                      </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </li>
+                                          
+                                            <li>
+                                               <div class="flexible-div">
+                                                <div class="dash-md-6">
+                                                   <!-- <label>Enter Gendar*</label> -->
+                                                   <div class="profile_gender">
+                                                    <div class="checkbox-input">
+                                                          <input type="checkbox" name="" class="check-input" >
+                                                          <label class="check-label">Checkbox</label>
+                                                      </div>
+                                                      <div class="checkbox-input">
+                                                          <input type="checkbox" name="" class="check-input" checked>
+                                                          <label class="check-label">Checkbox checked</label>
+                                                      </div>
+                                                      <div class="checkbox-input">
+                                                          <input type="checkbox" name="" class="check-input" disabled>
+                                                          <label class="check-label">Checkbox disabled</label>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                                <div class="dash-md-6">
+                                                   <div class="profile_gender">
+                                                      <div class="checkbox-input">
+                                                          <input type="radio" name="" class="check-input" >
+                                                          <label class="check-label">Radio</label>
+                                                      </div>
+                                                      <div class="checkbox-input">
+                                                          <input type="radio" name="" class="check-input" checked>
+                                                          <label class="check-label">Radio checked </label>
+                                                      </div>
+                                                      <div class="checkbox-input">
+                                                          <input type="radio" name="" class="check-input" disabled>
+                                                          <label class="check-label">Radio disabled</label>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                              </div>
+                                            </li>
+                                            <li>
+                                               <div class="flexible-div">
+                                                <div class="dash-md-6">
+                                                   <div class="profile_gender">
+                                                    <label>Select</label>
+                                                    <select class="select-box">
+                                                      <option>option 1</option>
+                                                      <option>option 2</option>
+                                                      <option>option 3</option>
+                                                      <option>option 4</option>
+                                                      <option>option 5</option>
+                                                      <option>option 6</option>
+                                                    </select>
+                                                   </div>
+                                                </div>
+                                                <div class="dash-md-6">
+                                                    <div class="profile_gender">
+                                                      <label>Select Disabled</label>
+                                                      <select class="select-box" disabled>
+                                                          <option>option 1</option>
+                                                          <option>option 2</option>
+                                                          <option>option 3</option>
+                                                          <option>option 4</option>
+                                                          <option>option 5</option>
+                                                          <option>option 6</option>
+                                                      </select>
+                                                     </div>
+                                              </div>
+                                            </li>
+                                             <li>
+                                               <div class="flexible-div">
+                                                <div class="dash-md-12 m-t-2">
+                                                   <button type="submit" class="btns plane_clr">Submit</button>
+                                                </div>
+                                              </div>
+                                            </li>
+                                          </ul>
+                                        </form>
+                                </div>
+                               </div><!--col/end-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- start footer -->
+        <div class="footer_cntnt">
+          <p>© 2020 Riffre with <span><i class="fas fa-heart"></i></span> by <span><a href="#">Blue Eagle Infotech</a></span>.</p>
+        </div>
+    </div>
+
+ <!-- top left modal -->
+ <div class="top_left_modal" id="modal_1">
+  <div class="modal_notification">
+    <div class="noti_modale_icn">
+      <span><i class="fas fa-bell"></i></span>  
+    </div>
+        <div class="noti_modale_cntnt">
+          <p class="message">Welcome to MATERIAL DASHBOARD PRO - a beautiful admin panel for every web developer.</p>
+        </div>
+        <div class="noti_modale_close" id="modale_closebtn_1">
+          <span><i class="fas fa-times"></i></span>
+        </div>
+                
+    </div>
+ </div>
+ <!-- top left modal -->
+ <div class="top_center_modal2" id="modal_2">
+  <div class="modal_notification">
+    <div class="noti_modale_icn">
+      <span><i class="fas fa-bell"></i></span>  
+    </div>
+        <div class="noti_modale_cntnt">
+          <p class="message">Welcome to MATERIAL DASHBOARD PRO - a beautiful admin panel for every web developer.</p>
+        </div>
+        <div class="noti_modale_close" id="modale_closebtn_2">
+          <span ><i class="fas fa-times"></i></span>
+        </div>       
+    </div>
+ </div>
+  <!-- top right modal -->
+ <div class="top_center_modal2 modal_right" id="modal_3">
+  <div class="modal_notification">
+    <div class="noti_modale_icn">
+      <span><i class="fas fa-bell"></i></span>  
+    </div>
+        <div class="noti_modale_cntnt">
+          <p class="message">Welcome to MATERIAL DASHBOARD PRO - a beautiful admin panel for every web developer.</p>
+        </div>
+        <div class="noti_modale_close" id="modale_closebtn_3">
+          <span ><i class="fas fa-times"></i></span>
+        </div>       
+    </div>
+ </div>
+ <!-- bottom left modal -->
+ <div class="top_center_modal2 modal_bottom_left" id="modal_4">
+  <div class="modal_notification">
+    <div class="noti_modale_icn">
+      <span><i class="fas fa-bell"></i></span>  
+    </div>
+        <div class="noti_modale_cntnt">
+          <p class="message">Welcome to MATERIAL DASHBOARD PRO - a beautiful admin panel for every web developer.</p>
+        </div>
+        <div class="noti_modale_close" id="modale_closebtn_4">
+          <span ><i class="fas fa-times"></i></span>
+        </div>       
+    </div>
+ </div>
+ <!-- bottom cemter modal -->
+ <div class="top_center_modal2 modal_bottom_center" id="modal_5">
+  <div class="modal_notification">
+    <div class="noti_modale_icn">
+      <span><i class="fas fa-bell"></i></span>  
+    </div>
+        <div class="noti_modale_cntnt">
+          <p class="message">Welcome to MATERIAL DASHBOARD PRO - a beautiful admin panel for every web developer.</p>
+        </div>
+        <div class="noti_modale_close" id="modale_closebtn_5">
+          <span ><i class="fas fa-times"></i></span>
+        </div>       
+    </div>
+ </div>
+ <!-- bottom cemter modal -->
+ <div class="top_center_modal2 modal_bottom_right" id="modal_6">
+  <div class="modal_notification">
+    <div class="noti_modale_icn">
+      <span><i class="fas fa-bell"></i></span>  
+    </div>
+        <div class="noti_modale_cntnt">
+          <p class="message">Welcome to MATERIAL DASHBOARD PRO - a beautiful admin panel for every web developer.</p>
+        </div>
+        <div class="noti_modale_close" id="modale_closebtn_6">
+          <span ><i class="fas fa-times"></i></span>
+        </div>       
+    </div>
+ </div>
+ 
+
+
+
+ <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script src="js/home-menu.js"></script>
+<script src="js/canvasjs.min.js"></script>
+<!-- <script type="text/javascript">
+  $(document).ready(function() {
+  var pathname = window.location.pathname;
+  $('.nav > li > a[href="'+pathname+'"]').parent().addClass('active');
+})
+</script> -->
+<script>
+window.onload = function () {
+
+  CanvasJS.addColorSet("greenShades", ["#002292","#920007","#820092","#469200","#926c00","#920058","#670092"]);
+  CanvasJS.addColorSet("lightclrs", ["#2c3cc4","#626ed4","#596afc","#a2acfe","#767889","#676767","#4a4a4a"]);
+  var chart = new CanvasJS.Chart("chartContainer1", {
+  animationEnabled: true,
+  colorSet: "greenShades",
+  backgroundColor: "transparent",
+  title: {
+    text: "GDP Growth Rate - 2016"
+  },
+  axisY: {
+    title: "Growth Rate (in %)",
+    suffix: "%",
+    includeZero: false
+  },
+  axisX: {
+    title: "Countries"
+  },
+  data: [{
+    type: "column",
+    yValueFormatString: "#,##0.0#\"%\"",
+    dataPoints: [
+      { label: "India", y: 7.1 }, 
+      { label: "China", y: 6.70 },  
+      { label: "Indonesia", y: 5.00 },
+      { label: "Australia", y: 2.50 },  
+      { label: "Mexico", y: 2.30 },
+      { label: "UK", y: 1.80 },
+      { label: "United States", y: 1.60 },
+      { label: "Japan", y: 1.60 }
+      
+    ]
+  }]
+});
+var chart1 = new CanvasJS.Chart("chartContainer2", {
+    colorSet: "lightclrs",
+    backgroundColor: "transparent",
+    animationEnabled: true,
+    title:{
+      text: "Gaming Consoles Sold in 2012"
+    },
+    legend: {
+      maxWidth: 350,
+      itemWidth: 120
+    },
+    data: [
+    {
+      type: "pie",
+      showInLegend: true,
+      legendText: "{indexLabel}",
+      dataPoints: [
+        { y: 4181563, indexLabel: "PlayStation 3" },
+        { y: 2175498, indexLabel: "Wii" },
+        { y: 3125844, indexLabel: "Xbox 360" },
+        { y: 1176121, indexLabel: "Nintendo DS"},
+        { y: 1727161, indexLabel: "PSP" },
+        { y: 4303364, indexLabel: "Nintendo 3DS"},
+        { y: 1717786, indexLabel: "PS Vita"}
+      ]
+    }
+    ]
+});
+
+var chart3 = new CanvasJS.Chart("chartContainer3", {
+  animationEnabled: true,
+  colorSet: "greenShades",
+  backgroundColor: "transparent",
+  title:{
+        text: "Number of Persons involved in Traffic Accidents by Mode of Transport",
+        margin: 15
+      },
+      toolTip:{
+        shared: true
+      },
+      axisX: {
+        valueFormatString: "MMM",
+        interval: 1,
+        intervalType: "month"
+      },
+      axisY:{
+        maximum: 3100,
+        interval:1000
+      },
+
+      legend:{
+        verticalAlign: "bottom",
+        horizontalAlign: "center"
+      },
+      data: [
+      {
+        type: "stackedArea",
+        name: "cars",
+        showInLegend: "true",
+        dataPoints: [
+        { x: new Date(2012, 00, 1), y: 1100 },
+        { x: new Date(2012, 01, 1), y: 1200 },
+        { x: new Date(2012, 02, 1), y: 1000},
+        { x: new Date(2012, 03, 1), y: 1200 },
+        { x: new Date(2012, 04, 1), y: 1600 },
+        { x: new Date(2012, 05, 1), y: 1800 },
+        { x: new Date(2012, 06, 1), y: 1400 },
+        { x: new Date(2012, 07, 1), y: 1500 },
+        { x: new Date(2012, 08, 1), y: 1600 },
+        { x: new Date(2012, 09, 1), y: 1800 }
+
+        ]
+      },
+      {
+        type: "stackedArea",
+        name: "trucks",
+        showInLegend: "true",
+        dataPoints: [
+        { x: new Date(2012, 00, 1), y: 150 },
+        { x: new Date(2012, 01, 1), y: 171 },
+        { x: new Date(2012, 02, 1), y: 155},
+        { x: new Date(2012, 03, 1), y: 150 },
+        { x: new Date(2012, 04, 1), y: 165 },
+        { x: new Date(2012, 05, 1), y: 195 },
+        { x: new Date(2012, 06, 1), y: 155 },
+        { x: new Date(2012, 07, 1), y: 145 },
+        { x: new Date(2012, 08, 1), y: 140 },
+        { x: new Date(2012, 09, 1), y: 151 }
+
+        ]
+      },
+      {
+        type: "stackedArea",
+        name: "bicycles",
+        showInLegend: "true",
+        dataPoints: [
+        { x: new Date(2012, 00, 1), y: 71 },
+        { x: new Date(2012, 01, 1), y: 41 },
+        { x: new Date(2012, 02, 1), y: 55},
+        { x: new Date(2012, 03, 1), y: 50 },
+        { x: new Date(2012, 04, 1), y: 65 },
+        { x: new Date(2012, 05, 1), y: 95 },
+        { x: new Date(2012, 06, 1), y: 45 },
+        { x: new Date(2012, 07, 1), y: 95 },
+        { x: new Date(2012, 08, 1), y: 60 },
+        { x: new Date(2012, 09, 1), y: 40 }
+
+        ]
+      },
+
+      {
+        type: "stackedArea",
+        name: "motorcycles",
+        showInLegend: "true",
+        dataPoints: [
+        { x: new Date(2012, 00, 1), y: 861 },
+        { x: new Date(2012, 01, 1), y: 761 },
+        { x: new Date(2012, 02, 1), y: 775},
+        { x: new Date(2012, 03, 1), y: 680 },
+        { x: new Date(2012, 04, 1), y: 785 },
+        { x: new Date(2012, 05, 1), y: 374 },
+        { x: new Date(2012, 06, 1), y: 365 },
+        { x: new Date(2012, 07, 1), y: 455 },
+        { x: new Date(2012, 08, 1), y: 657 },
+        { x: new Date(2012, 09, 1), y: 659 }
+
+        ]
+      },
+      {
+        type: "stackedArea",
+        name: "pedistrians",
+        showInLegend: "true",
+        dataPoints: [
+        { x: new Date(2012, 00, 1), y: 220 },
+        { x: new Date(2012, 01, 1), y: 240 },
+        { x: new Date(2012, 02, 1), y: 295},
+        { x: new Date(2012, 03, 1), y: 300 },
+        { x: new Date(2012, 04, 1), y: 265 },
+        { x: new Date(2012, 05, 1), y: 235 },
+        { x: new Date(2012, 06, 1), y: 245 },
+        { x: new Date(2012, 07, 1), y: 255 },
+        { x: new Date(2012, 08, 1), y: 275 },
+        { x: new Date(2012, 09, 1), y: 290 }
+
+        ]
+      }
+
+      ]
+
+});
+chart3.render();
+chart.render();
+chart1.render();
+
+
+var chart = new CanvasJS.Chart("chartContainer4", {
+  animationEnabled: true,
+  colorSet: "lightclrs",
+  backgroundColor: "transparent",
+  title:{
+    text: "Email Categories",
+    horizontalAlign: "left"
+  },
+  data: [{
+    type: "doughnut",
+    startAngle: 60,
+    indexLabelFontSize: 17,
+    indexLabel: "{label} - #percent%",
+    toolTipContent: "<b>{label}:</b> {y} (#percent%)",
+    dataPoints: [
+      { y: 67, label: "Inbox" },
+      { y: 28, label: "Archives" },
+      { y: 10, label: "Labels" },
+      { y: 7, label: "Drafts"},
+      { y: 15, label: "Trash"},
+      { y: 6, label: "Spam"}
+    ]
+  }]
+});
+chart.render();
+
+
+}
+</script>
+
+<script type="text/javascript" charset="utf8" src="js/dataTables.js"></script>
+<script type="text/javascript">
+  $(document).ready( function () {
+    $('#table_id').DataTable();
+} );
+</script>
+<script>
+  $(".header-controlMenuButton").click(function(){
+  $(".pie_chart > div").addClass("canvasadd_height");
+});
+  $(".button-menu-mobile").click(function(){
+  $(".pie_chart > div").removeClass("canvasadd_height");
+});
+</script>
+<!-- start modal show -->
+<script type="text/javascript">
+  $("#top_left").click(function(){
+    $("#modal_1").slideDown(500);
+  });
+  $("#modale_closebtn_1").click(function(){
+    $("#modal_1").slideUp(500);
+  });
+  $("#top_center").click(function(){
+    $("#modal_2").slideDown(500);
+  });
+  $("#modale_closebtn_2").click(function(){
+    $("#modal_2").slideUp(500);
+  });
+  $("#top_right").click(function(){
+    $("#modal_3").slideDown(500);
+  });
+  $("#modale_closebtn_3").click(function(){
+    $("#modal_3").slideUp(500);
+  });
+  $("#bottom_left").click(function(){
+    $("#modal_4").slideDown(500);
+  });
+  $("#modale_closebtn_4").click(function(){
+    $("#modal_4").slideUp(500);
+  });
+  $("#bottom_center").click(function(){
+    $("#modal_5").slideDown(500);
+  });
+  $("#modale_closebtn_5").click(function(){
+    $("#modal_5").slideUp(500);
+  });
+  $("#bottom_right").click(function(){
+    $("#modal_6").slideDown(500);
+  });
+  $("#modale_closebtn_6").click(function(){
+    $("#modal_6").slideUp(500);
+  });
+</script>
+<script type="text/javascript">
+    $(".home_setting_btn button").click(function(){
+      $(".home_setting_drowpdown").slideToggle();
+    });
+</script>
+</body>
+</html>
